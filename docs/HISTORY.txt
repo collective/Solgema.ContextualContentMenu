@@ -1,0 +1,9 @@
+Changelog for Martronic.Solgema
+
+    (name of developer listed in brackets)
+
+Martronic.Solgema - 0.1 Unreleased
+
+    - Initial package structure.
+      [zopeskel]
+

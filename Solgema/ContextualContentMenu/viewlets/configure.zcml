@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+    <include package="Products.CMFCore" file="permissions.zcml"/>
+
+    <browser:page
+        for="*"
+        class=".common.ContentActionsViewlet"
+        name="SCCMcontentactions"
+        permission="zope2.View"
+      />
+
+</configure>
