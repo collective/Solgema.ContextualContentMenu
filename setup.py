@@ -29,5 +29,7 @@ setup(name='Solgema.ContextualContentMenu',
       ],
       entry_points="""
       # -*- Entry points: -*-
+      [z3c.autoinclude.plugin]
+      target = plone
       """,
       )
