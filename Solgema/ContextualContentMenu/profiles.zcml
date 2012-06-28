@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plone">
+    
+  <genericsetup:registerProfile
+    name="default"
+    title="Solgema ContextualContentMenu"
+    directory="profiles/default"
+    description='Adds a javascript Contextual Content Menu '
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="Uninstall Solgema ContextualContentMenu"
+      directory="profiles/uninstall"
+      description="Uninstall Solgema ContextualContentMenu Product."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

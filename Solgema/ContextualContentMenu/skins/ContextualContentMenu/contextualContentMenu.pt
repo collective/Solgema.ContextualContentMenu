@@ -1,0 +1,7 @@
+<metal:block use-macro="here/global_defines/macros/defines" />
+<div id="contextualContentMenu"
+      tal:define="plone_view context/@@plone;
+                  view nocall:view | nocall: plone_view;">
+  <div tal:replace="structure context/@@SCCMcontentactions | nothing" />
+  <div tal:replace="structure provider:plone.contentmenu" />
+</div>

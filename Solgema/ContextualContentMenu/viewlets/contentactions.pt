@@ -1,0 +1,38 @@
+<ul i18n:domain="plone"
+     class="contentActions"
+     tal:define="content_actions view/object_actions;"
+     tal:condition="content_actions | wf_state"
+     id="contentActionMenus">
+
+    <li>
+      <dl id="menuItemActions" class="actionMenu">
+        <dt tal:attributes="class string:actionMenuHeader label-actions">
+          <a tal:attributes="herf context/absolute_url">
+            <span i18n:domain="zope" i18n:translate="">Object</span>
+            <span class="arrowDownAlternative">&#9660;</span>
+          </a>
+        </dt>
+        <dd class="actionMenuContent">
+        <ul class="actionItems">
+            <li tal:repeat="action content_actions"
+                tal:attributes="id string:contentaction-${action/id};">
+
+                <a class="" href=""
+                   tal:define="icon python:view.icon(action)"
+                   tal:attributes="href action/url;">
+
+                    <img alt="" src=""
+                         tal:condition="icon"
+                         tal:attributes="src icon; alt action/title;" />
+
+                    <span tal:content="action/title" i18n:translate="">
+                        Action name
+                    </span>
+                </a>            
+
+            </li>
+        </ul>
+        </dd>
+      </dl>
+    </li>
+</ul>
