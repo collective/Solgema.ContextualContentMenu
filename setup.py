@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1'
+version = '0.2dev'
 
 setup(name='Solgema.ContextualContentMenu',
       version=version,
-      description="Solgema",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      description="Solgema Contextual Content Menu",
+      long_description=open("README.rst").read() + "\n" +
+                       open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Framework :: Plone",

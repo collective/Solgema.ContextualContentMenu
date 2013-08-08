@@ -1,5 +1,5 @@
 Solgema.ContextualContentMenu Installation
-==========================
+==========================================
 
 To install Solgema.ContextualContentMenu into the global Python environment (or a workingenv),
 using a traditional Zope 2 instance, you can do this:
