@@ -1,9 +1,8 @@
 Changelog
 =========
 
-
-0.2 (unreleased)
-----------------
+0.2
+---
 
 - Define ``jq`` variable in JS for plone sites where ``jquery-integration.js``
   is not delivered.
