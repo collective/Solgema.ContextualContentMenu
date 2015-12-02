@@ -62,7 +62,8 @@ function openContextualContentMenu(event, element, menuTemplate, afterContextual
     }
     if (path.substring(path.length-5, path.length) == '/view') var path = path.substring(0, path.length-5);
     if (path.substring(path.length-16, path.length) == '/folder_contents') var path = path.substring(0, path.length-16);
-    jq.get(path+'/'+menuTemplate, data,
+    headers = { 'X-CSRF-TOKEN': SolgemaFullcalendarVars.csrfToken },
+    jq.get(path+'/'+menuTemplate, data, headers,
         function (msg) {
             if (msg) {
                 jq('body').append(msg);
