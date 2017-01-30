@@ -1,6 +1,13 @@
 Changelog
 =========
 
+0.3 (unreleased)
+----------------
+
+- fix markup to prevent plone4.csrffixes from running into a TypeError
+  (this fixes #3) [fRiSi]
+
+
 0.2
 ---
 

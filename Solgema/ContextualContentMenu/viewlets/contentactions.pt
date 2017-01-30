@@ -7,7 +7,7 @@
     <li>
       <dl id="menuItemActions" class="actionMenu">
         <dt tal:attributes="class string:actionMenuHeader label-actions">
-          <a tal:attributes="herf context/absolute_url">
+          <a tal:attributes="href context/absolute_url">
             <span i18n:domain="zope" i18n:translate="">Object</span>
             <span class="arrowDownAlternative">&#9660;</span>
           </a>
@@ -28,7 +28,7 @@
                     <span tal:content="action/title" i18n:translate="">
                         Action name
                     </span>
-                </a>            
+                </a>
 
             </li>
         </ul>
