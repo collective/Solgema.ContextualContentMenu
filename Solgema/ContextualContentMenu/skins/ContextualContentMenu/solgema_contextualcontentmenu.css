@@ -1,6 +1,3 @@
-/* <dtml-with base_properties> (do not remove this :) */
-/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
-
 #contextualContentMenu {
     position:absolute;
     z-index:10000;
@@ -121,7 +118,7 @@
 }
 
 .contentmenu_selected {	
-    background-color: &dtml-helpBackgroundColor; !important;
+    background-color: #333 !important;
     color:black !important;
 }
 
@@ -129,7 +126,6 @@
     color:black !important;
 }
 
-/* </dtml-with> */
 /* @end */
 
 
