@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.3 (unreleased)
+0.3 (2017-03-20)
 ----------------
 
 - fix markup to prevent plone4.csrffixes from running into a TypeError
