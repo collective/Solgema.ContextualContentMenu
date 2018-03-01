@@ -4,7 +4,8 @@ Changelog
 0.4 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Extended the uninstall profile.
+  [thet]
 
 
 0.3 (2017-03-20)
