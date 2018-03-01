@@ -15,6 +15,7 @@
 
 
   <browser:page
+      zcml:condition="installed plone.event"
       for="plone.event.interfaces.IEvent"
       name="contextualContentMenu"
       class=".views.SolgemaContextualContentMenu"

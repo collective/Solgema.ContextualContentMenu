@@ -4,6 +4,9 @@ Changelog
 0.4 (unreleased)
 ----------------
 
+- Don't hard-depend on plone.event.
+  [thet]
+
 - Extended the uninstall profile.
   [thet]
 
