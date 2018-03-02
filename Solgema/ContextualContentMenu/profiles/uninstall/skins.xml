@@ -6,7 +6,7 @@
     directory="Solgema.ContextualContentMenu:skins/ContextualContentMenu" remove="True"/>
 
  <skin-path name="*">
-  <layer name="ContextualContentMenu" insert-after="custom" remove="True"/>
+  <layer name="ContextualContentMenu" remove="True"/>
  </skin-path>
 
 </object>
